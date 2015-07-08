@@ -1,0 +1,13 @@
+{
+    "name": "rattazonk/codeelements",
+    "type": "typo3-flow-package",
+    "description": "Adds a node type for content elements for code",
+    "require": {
+        "typo3/flow": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rattazonk\\CodeElements": "Classes"
+        }
+    }
+}

@@ -1,12 +1,13 @@
 'Rattazonk.CodeElements:CodeSnippet':
-  superTypes: ['TYPO3.Neos.NodeTypes:Html']
+  superTypes:
+    'TYPO3.Neos.NodeTypes:Html': true
   ui:
     label: 'Code Snippet'
   properties:
     source:
-      ui: 
-        label: 'Code'
+      ui:
+        label: Code
         inspector:
-          editorOptions: 
+          editorOptions:
             buttonLabel: 'Edit code snippet'
       defaultValue: 'Enter code here'

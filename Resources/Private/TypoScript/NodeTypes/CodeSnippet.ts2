@@ -1,0 +1,7 @@
+prototype(Rattazonk.CodeElements:CodeSnippet) < prototype(TYPO3.Neos:Content) {
+	templatePath = 'resource://Rattazonk.CodeElements/Private/Templates/NodeTypes/CodeSnippet.html'
+	#sourceCode = ${q(node).property('source')}
+	attributes {
+		class = 'prettify'
+	}
+}
